@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;;
+}
+.todo {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  background: #222930;
+  min-width: 200px;
+  height: 500px;
+  color: #fff;
+  overflow: scroll;;
+}
+.todo__header {
+  padding: 1rem 0;
+}
+.todo__title {
+  margin: 1rem;
+  text-align: center;
+}
+.todo__input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  outline: red;
+  border: none;
+  font-size: 1rem;
+}
+.todo__item {
+  list-style: none;
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid #d49a3f;
+}
+.todo__item:hover {
+  cursor: default;
+}
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+  border-bottom: 2px solid rgb(65, 52, 32);
+}
